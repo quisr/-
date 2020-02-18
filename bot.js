@@ -17,32 +17,32 @@ client.on('message', message => {
   if (message.content.startsWith(prefix + 'setwatch')) {
   client.user.setActivity(argresult, {type: 'WATCHING'})
      console.log('test' + argresult);
-    message.channel.sendMessage(`Watch Now: **${argresult}`)
+    message.channel.sendMessage(`Watch Now: ツ ēŁǤƶȥąƦ ツ${argresult}`)
 } 
 
  
   if (message.content.startsWith(prefix + 'setlis')) {
   client.user.setActivity(argresult, {type: 'LISTENING'})
      console.log('test' + argresult);
-    message.channel.sendMessage(`LISTENING Now: **${argresult}`)
+    message.channel.sendMessage(`LISTENING Now: ツ ēŁǤƶȥąƦ ツ${argresult}`)
 } 
 
 
 if (message.content.startsWith(prefix + 'setname')) {
   client.user.setUsername(argresult).then
-      message.channel.sendMessage(`Username Changed To **${argresult}**`)
+      message.channel.sendMessage(`Username Changed To ツ ēŁǤƶȥąƦ ツ${argresult}ツ ēŁǤƶȥąƦ ツ`)
   return message.reply("You Can change the username 2 times per hour");
 } 
 
 if (message.content.startsWith(prefix + 'setavatar')) {
   client.user.setAvatar(argresult);
-   message.channel.sendMessage(`Avatar Changed Successfully To **${argresult}**`);
+   message.channel.sendMessage(`Avatar Changed Successfully To ツ ēŁǤƶȥąƦ ツ${argresult}ツ ēŁǤƶȥąƦ ツ`);
 }
 
 if (message.content.startsWith(prefix + 'setT')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/peery13");
+  client.user.setGame(argresult, "https://www.twitch.tv/kubbooo");
      console.log('test' + argresult);
-    message.channel.sendMessage(`Streaming: **${argresult}`)
+    message.channel.sendMessage(`Streaming: ツ ēŁǤƶȥąƦ ツ${argresult}`)
 } 
 if (message.content.startsWith(prefix + 'setgame')) {
   client.user.setGame(argresult);
